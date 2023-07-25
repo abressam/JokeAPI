@@ -7,12 +7,33 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/setup_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/setup_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/punchline_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/punchline_text"
+        app:layout_constraintEnd_toEndOf="@+id/setup_text"
+        app:layout_constraintStart_toStartOf="@+id/setup_text"
+        app:layout_constraintTop_toBottomOf="@+id/setup_text" />
+
+    <Button
+        android:id="@+id/next_joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/next_joke_text"
+        app:layout_constraintEnd_toEndOf="@+id/punchline_text"
+        app:layout_constraintStart_toStartOf="@+id/punchline_text"
+        app:layout_constraintTop_toBottomOf="@+id/punchline_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
