@@ -2,5 +2,5 @@
     <string name="app_name">Using API</string>
     <string name="setup_text">Setup</string>
     <string name="punchline_text">Punchline</string>
-    <string name="next_joke_text">Next Joke</string>
+    <string name="button_new_joke">New joke</string>
 </resources>
